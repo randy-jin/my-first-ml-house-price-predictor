@@ -1,9 +1,9 @@
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 import pandas as pd
 import utils
-import sklearn
 
 # Load data from csv file
 df = pd.read_csv("synthetic_house_data.csv")
@@ -39,3 +39,10 @@ print(f"RandomForest Predicted price: {predicted_randomforest_price[0]:.2f} (in 
 # 🔍 Model Evaluation on test set
 rf_preds = model_randomforest.predict(X_test)
 utils.evaluate_regression_model(y_test, rf_preds)
+
+# call
+utils.plot_predictions(y_test, linear_preds, model_name="Linear Regression")
+utils.plot_predictions(y_test, rf_preds, model_name="Random Forest")
+
+# call
+utils.plot_model_trends(model_linear, model_randomforest)

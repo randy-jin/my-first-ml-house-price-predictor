@@ -60,6 +60,18 @@ MAPE: 9.72%
 
 ---
 
+### 📊 Linear Regression Results
+![Linear Regression](images/linear_regression_prediction_plot.png)
+
+### 🌲 Random Forest Results
+![Random Forest](images/random_forest_prediction_plot.png)
+
+### 📈 Trend Comparison: Linear vs Random Forest
+This chart shows how predictions change as house size increases (garage spaces = 2).
+![Model Trend](images/model_trend_comparison.png)
+
+---
+
 ## 💡 What I Learned
 
 - How to load and prepare structured data
@@ -80,6 +92,6 @@ MAPE: 9.72%
 
 ## 🙌 About Me
 
-I'm currently learning machine learning step-by-step.  
+I am Randy J, I'm currently learning machine learning step-by-step.  
 This is my first real-world attempt — feel free to give feedback or suggestions!
 
