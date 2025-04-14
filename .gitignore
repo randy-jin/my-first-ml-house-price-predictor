@@ -1,0 +1,45 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+# build files
+.gradle/
+build/
+*/classes
+target/**
+**/*/target/**/**
+bin/
+gen/
+out/
+.extract/
+tomcat.8080/
+__pycache__/
+
+# Eclipse files
+.metadata/
+.classpath
+.project
+.settings/
+# IDEA files
+
+**/**.idea/*
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.sw?
+**/workspace.xml
+**/vcs.xml
+**.idea/
+*.iml
+*.ipr
+*.iws
+*.sw?
+/.apt_generated/
+backend/target/
+buildtools/target/
+src/main/java/com/cex/common/target/
+core/target/
+generator/target/
+parent/target/
+src/main/java/com/cex/web/target/
+/src/main/resources/711StoresNew.json
+/src/main/resources/schedule.properties.bak
